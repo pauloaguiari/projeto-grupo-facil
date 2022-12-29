@@ -1,0 +1,37 @@
+.title {
+    flex: 1 1 auto;
+    font-size:30px;
+  }
+
+.header{
+    text-align: center;
+}
+
+.bg-secondary{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+/*=================CENTRALIZA FORMULARIO====================*/
+body.center-form {
+  min-height: 100vh;
+}
+
+div.center-form {
+  position: relative;
+  min-height: 100vh;
+}
+
+div.center-form > form {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+/*=========================================================*/
+
+.cad-form{
+  width: 80%;
+}
